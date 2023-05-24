@@ -1,0 +1,111 @@
+body{
+    background-color:gray;
+    margin: 0;
+    color: white;
+}
+.top{
+    margin-bottom: 5px;
+    height: 700px;
+    position: relative;
+    width: 100%;
+    background-position: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url("background.jpg");
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 86px;
+    margin-left: 154.22px;
+    margin-right: 154.22px;
+}
+.left-header img{
+    height: 55px;
+    width: 220px;
+    color: rgb(153, 2, 7);
+}
+.right-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 234px;
+    width: 871px;
+    margin-top: 177px;
+    margin-left: 186px;
+}
+.language-button{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(255,255,255);
+    margin-right: 20px;
+    border-radius: 7px;
+    height: 35px;
+    width: 121px;
+}
+.select-lang{
+    background-color: black;
+    color: white;
+    border-color: none;
+    border: 0;
+}
+.top-content h1{
+    font-weight: 900;
+    font-size: 3rem;
+}
+.top-content p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+.top-content h3{
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+.top-content input{
+    height: 50px;
+    width: 332px;
+    padding-left: 30px;
+    border-radius: 7px;
+    border: 1px solid rgb(256,256,256);
+    background-color: rgb(0,0,0);
+    font-size: large;
+}
+.top-content button{
+    height: 58px;
+    width: 210px;
+    border-radius: 7px;
+    background-color: rgb(193, 17, 25);
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    border-color: black;
+    border: none;
+}
+.signin-button{
+    height: 35px;
+    width: 81px;
+    border-radius: 7px;
+    background-color: rgb(153,22,29);
+    color: rgb(255,255,255);
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background-color 2s;
+}
+.signin-button:hover{
+    background-color: rgb(255,255,255);
+}
+.signin-button:active{
+    background-color:rgba(128,128,128,0.6);
+}
